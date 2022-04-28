@@ -1,0 +1,67 @@
+.slider{
+    padding: 32px;
+height: 392px;
+background: #00053C;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.slider p{
+    color:#FFFFFF;;
+    font-size: 30px;
+}
+
+.main_content{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.main_content img{
+    height: 303px;
+width: 492px;
+
+
+}
+
+.main_title{
+    padding-left: 48px;
+    height: 300px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_title h3{
+    font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+
+
+color: #FFFFFF;
+}
+
+.main_title h5{
+    font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+padding: 10px 0;
+
+
+color: #FFFFFF;
+}
+
+
+.flexend{
+    -ms-flex-align: end;
+}

@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    padding: 22px 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 47px;
+    background: #FFFFFF;
+border: 0.5px solid rgba(0, 0, 0, 0.3);
+box-sizing: border-box;
+}
+
+.searchbox{
+    padding: 0 22px;
+width: 532px;
+height: 53px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 18px;
+background: #FFFFFF;
+box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+
+
+}
+
+.searchbox input{
+    width: 100%;
+    height: 43px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.searchbox input:focus{
+    outline: none;
+}
+
+.navlinks{
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav_login{
+    width: 102px;
+    text-align: center;
+height: 41px;
+line-height: 41px;
+background: #DBDFE8;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+vertical-align: middle;
+}

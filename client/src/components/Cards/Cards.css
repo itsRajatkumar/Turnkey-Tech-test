@@ -1,0 +1,32 @@
+.card_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card{
+    margin-bottom: 60px;
+}
+
+.card h3{
+
+font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+
+color: #000000;
+
+}
+.card h5{
+margin-top: 11px;
+font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+
+color: #000000;
+
+}

@@ -1,0 +1,31 @@
+.landing{
+    padding: 90px 76px;
+}
+
+
+.landing h1{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 38px;
+line-height: 45px;
+color: #000000;
+}
+
+.landing h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 28px;
+    color: #000000;
+    
+}
+
+.gridbox{
+    display: grid;
+    grid-template-columns: .27fr .73fr;
+    gap: 27px;
+    margin-top: 67px;
+}

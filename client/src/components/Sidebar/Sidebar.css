@@ -1,0 +1,57 @@
+.sidebar{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.sidebar h4{
+    text-align: center;
+}
+
+.sidebar h5{
+    margin-top: 20px;
+}
+
+.filter_box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+    height: 44px;
+width: 269px;
+left: 122.5px;
+top: 446.5px;
+border-radius: 0px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.filter_box div{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    height: 26px;
+width: 141px;
+border-radius: 0px;
+
+    background: #DBDFE8;
+}
+
+.check{
+    font-family: 'Futura Md BT';
+font-style: normal;
+margin-top: 20px;
+display: flex;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+flex-direction: row;
+gap: 10px;
+align-items: center;
+}
+
+.check label{
+    font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+}
